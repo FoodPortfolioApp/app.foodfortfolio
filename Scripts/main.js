@@ -1,4 +1,10 @@
-function openCity(evt, cityName) {
+////////////////////////////////////////////////////////////////////////
+
+///************THIS JS FILE IS NOT USED ANYWHERE FOR THIS PROJECT *////
+
+///////////////////////////////////////////////////////////////////////
+
+/*function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -10,7 +16,7 @@ function openCity(evt, cityName) {
     }
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
+  }*/
 
   window.onload = function() {
   var image1 = document.getElementById("image1");

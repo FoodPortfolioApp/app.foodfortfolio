@@ -1,50 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Food Portfolio</title>
   <link rel="stylesheet" href="Css/Project.css">
-  <script src="Scripts/main.js"></script>
-  <script src="Scripts/Project.js"></script>
+  <link rel="stylesheet" href="Css/Tabs.css">
 </head>
 <body>
 
 <!-- Header -->
-<div class="header" id="myHeader">
-    <p>Click on the buttons to change the grid view.</p>
-    <button class="btn" onclick="one()">1</button>
-    <button class="btn active" onclick="two()">2</button>
-    <button class="btn" onclick="four()">4</button>
-  </div>
-  
-  <!-- Photo Grid -->
-  <div class="row"> 
-    <div class="column">
+<section class="header" id="myHeader">
+    <ul class="tabs">
+      <li>
+        <input id="tab1" type="radio" name="tabs" checked />
+        <label for="tab1">1</label>
+        <section id="tab-panel1" class="tab-panel">
+          <!-- Photo Grid -->
+  <section class="row"> 
+    <section class="column">
       <img src="Images/Project/Image1.jpg" style="width:100%">
       <img src="Images/Project/Image2.jpg" style="width:100%">
       <img src="Images/Project/Image3.jpg" style="width:100%">
       <img src="Images/Project/Image4.jpg" style="width:100%">
       <img src="Images/Project/Image5.jpg" style="width:100%">
-    </div>
-    <div class="column">
+    </section>
+    <section class="column">
       <img src="Images/Project/Image6.webp" style="width:100%">
       <img src="Images/Project/Image7.webp" style="width:100%">
       <img src="Images/Project/Image8.jpg" style="width:100%">
       <img src="Images/Project/Image9.jpg" style="width:100%">
       <img src="Images/Project/Image10.jpg" style="width:100%">
-    </div>  
-    <div class="column">
+    </section>  
+    <section class="column">
       <img src="Images/Project/Image11.jpg" style="width:100%">
       <img src="Images/Project/Image12.jpg" style="width:100%">
       <img src="Images/Project/Image13.jpg" style="width:100%">
       <img src="Images/Project/Image14.jpg" style="width:100%">
       <img src="Images/Project/Image15.jpg" style="width:100%">
-    </div>
-    <div class="column">
+    </section>
+    <section class="column">
       <img src="Images/Project/Image1.jpg" style="width:100%">
       <img src="Images/Project/Image2.jpg" style="width:100%">
       <img src="Images/Project/Image11.jpg" style="width:100%">
       <img src="Images/Project/Image12.jpg" style="width:100%">
       <img src="Images/Project/Image8.jpg" style="width:100%">
-    </div>
-  </div>
+    </section>
+  </section>
+        </section>
+      </li>
+      <li>
+        <input id="tab2" type="radio" name="tabs" />
+        <label for="tab2">2</label>
+        <section id="tab-panel2" class="tab-panel">
+          <!-- Photo Grid -->
+  <section class="row"> 
+    <section class="column">
+      <img src="Images/Project/Image1.jpg" style="width:75%">
+      <img src="Images/Project/Image2.jpg" style="width:75%">
+      <img src="Images/Project/Image3.jpg" style="width:75%">
+      <img src="Images/Project/Image4.jpg" style="width:75%">
+      <img src="Images/Project/Image5.jpg" style="width:75%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image6.webp" style="width:75%">
+      <img src="Images/Project/Image7.webp" style="width:75%">
+      <img src="Images/Project/Image8.jpg" style="width:75%">
+      <img src="Images/Project/Image9.jpg" style="width:75%">
+      <img src="Images/Project/Image10.jpg" style="width:75%">
+    </section>  
+    <section class="column">
+      <img src="Images/Project/Image11.jpg" style="width:75%">
+      <img src="Images/Project/Image12.jpg" style="width:75%">
+      <img src="Images/Project/Image13.jpg" style="width:75%">
+      <img src="Images/Project/Image14.jpg" style="width:75%">
+      <img src="Images/Project/Image15.jpg" style="width:75%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image1.jpg" style="width:75%">
+      <img src="Images/Project/Image2.jpg" style="width:75%">
+      <img src="Images/Project/Image11.jpg" style="width:75%">
+      <img src="Images/Project/Image12.jpg" style="width:75%">
+      <img src="Images/Project/Image8.jpg" style="width:75%">
+    </section>
+  </section>
+        </section>
+      </li>  
+      <li>
+        <input id="tab3" type="radio" name="tabs" />
+        <label for="tab3">3</label>
+        <section id="tab-panel3" class="tab-panel">
+          <!-- Photo Grid -->
+  <section class="row"> 
+    <section class="column">
+      <img src="Images/Project/Image1.jpg" style="width:25%">
+      <img src="Images/Project/Image2.jpg" style="width:25%">
+      <img src="Images/Project/Image3.jpg" style="width:25%">
+      <img src="Images/Project/Image4.jpg" style="width:25%">
+      <img src="Images/Project/Image5.jpg" style="width:25%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image6.webp" style="width:25%">
+      <img src="Images/Project/Image7.webp" style="width:25%">
+      <img src="Images/Project/Image8.jpg" style="width:25%">
+      <img src="Images/Project/Image9.jpg" style="width:25%">
+      <img src="Images/Project/Image10.jpg" style="width:25%">
+    </section>  
+    <section class="column">
+      <img src="Images/Project/Image11.jpg" style="width:25%">
+      <img src="Images/Project/Image12.jpg" style="width:25%">
+      <img src="Images/Project/Image13.jpg" style="width:25%">
+      <img src="Images/Project/Image14.jpg" style="width:25%">
+      <img src="Images/Project/Image15.jpg" style="width:25%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image1.jpg" style="width:25%">
+      <img src="Images/Project/Image2.jpg" style="width:25%">
+      <img src="Images/Project/Image11.jpg" style="width:25%">
+      <img src="Images/Project/Image12.jpg" style="width:25%">
+      <img src="Images/Project/Image8.jpg" style="width:25%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image13.jpg" style="width:25%">
+      <img src="Images/Project/Image11.jpg" style="width:25%">
+      <img src="Images/Project/Image13.jpg" style="width:25%">
+      <img src="Images/Project/Image12.jpg" style="width:25%">
+      <img src="Images/Project/Image15.jpg" style="width:25%">
+    </section>
+    <section class="column">
+      <img src="Images/Project/Image1.jpg" style="width:25%">
+      <img src="Images/Project/Image14.jpg" style="width:25%">
+      <img src="Images/Project/Image2.jpg" style="width:25%">
+      <img src="Images/Project/Image15.jpg" style="width:25%">
+      <img src="Images/Project/Image8.jpg" style="width:25%">
+    </section>
+  </section>
+        </section>
+      </li>     
+    </ul>
+  </section>
 </body>
